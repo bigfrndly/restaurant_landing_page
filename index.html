@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites - Restaurant</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    
+    <header class="navbar">
+        <div class="logo">Delicious Bites</div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#reserve" class="btn-reserve">Reserve</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1>Welcome to Delicious Bites</h1>
+            <p>Experience the finest dishes crafted with passion and fresh ingredients.</p>
+            <br>
+            <a href="#menu" class="btn">Explore Our Menu</a>
+        </div>
+    </section>
+<div class="aa">
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>At Delicious Bites, we believe in offering the best dining experience. Our chefs prepare each dish with precision and care, ensuring every bite is memorable.</p>
+    </section>
+
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item GC" >
+                <h3>Grilled Chicken</h3>
+                <p>Succulent grilled chicken with a side of fresh veggies.</p>
+            </div>
+            <div class="menu-item PP">
+                <h3>Pasta Primavera</h3>
+                <p>A classic Italian dish bursting with flavors of fresh vegetables.</p>
+            </div>
+            <div class="menu-item CL">
+                <h3>Chocolate Lava Cake</h3>
+                <p>A rich, molten chocolate cake served with vanilla ice cream.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>123 Food Street, Gourmet City</p>
+        <p>Email: hello@deliciousbites.com</p>
+        <p>Phone: +123-456-7890</p>
+    </section>
+
+    <section id="reserve" class="reserve">
+        <h2>Reserve a Table</h2>
+        <form id="reservation-form">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+
+            <label for="date">Date</label>
+            <input type="date" id="date" required>
+
+            <label for="time">Time</label>
+            <input type="time" id="time" required>
+
+            <label for="guests">Number of Guests</label>
+            <input type="number" id="guests" required>
+
+            <button type="submit">Reserve Now</button>
+        </form>
+        <p id="success-message" class="hidden">Thank you! Your reservation is confirmed.</p>
+    </section>
+</div>
+
+    <footer>
+        <p>&copy; 2024 Delicious Bites. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
